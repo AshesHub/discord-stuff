@@ -4246,3 +4246,8 @@
   #vc-spotify-player {
     order: -1;
   }
+
+  .sidebar_c25c6d {
+    width: var(--custom-standard-sidebar-view-sidebar-total-width);
+    padding: 20px var(--custom-standard-sidebar-view-sidebar-content-scrollbar-padding) 20px var(--custom-standard-sidebar-view-standard-padding);
+  }
