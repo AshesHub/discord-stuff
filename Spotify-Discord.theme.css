@@ -558,6 +558,7 @@
   
   .channelTextArea_d0696b {
     margin-bottom: var(--textarea-margin);
+    max-height: unset;
     z-index: 2;
   }
   .channelTextArea_d0696b .attachButton_f298d4 {
@@ -1989,9 +1990,9 @@
    *
    */
   .container_c2739c {
-    height: var(--content-full-height);
     background-color: var(--app-foreground);
     border-radius: var(--app-card-radius);
+    margin: 0 var(--app-card-margin) var(--app-card-margin) 0;
   }
   
   .tabBody_c2739c:before {
