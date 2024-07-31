@@ -1,0 +1,3 @@
+[class^=avatar_] + [class^=avatarDecoration_],
+[class^=avatar_] [class^=avatarDecoration_]
+ { opacity: 0 !important; }
