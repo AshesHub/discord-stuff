@@ -1,0 +1,11 @@
+[class^=reaction_]:not(:has(.burstGlow_ec6b19)) .emoji {
+  transition: transform 0.5s ease;
+}
+[class^=reaction_]:not(:has(.burstGlow_ec6b19)):hover .emoji {
+  transform: translateY(-10px) scale(1.5);
+}
+
+[class^=reaction_]:not(:has(.burstGlow_ec6b19)):active .emoji {
+  transition: transform 0.1s ease;
+  transform: translateY(-10px) scale(2);
+}
