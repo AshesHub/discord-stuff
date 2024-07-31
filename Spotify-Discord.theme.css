@@ -557,8 +557,6 @@ body,
 }
 
 .channelTextArea_d0696b {
-  margin-bottom: var(--textarea-margin);
-  margin-top: var(--textarea-margin);
   max-height: unset;
   z-index: 2;
 }
@@ -575,27 +573,7 @@ body,
 .channelTextArea_d0696b .fontSize16Padding_d0696b {
   --textarea-text-padding: calc( calc(var(--main-textarea-min-height) - 22px) / 2);
   padding-bottom: var(--textarea-text-padding);
-}
-
-.typing_d7ebeb {
-  bottom: 0;
-  width: calc(100% - var(--scrollbar-width));
-  right: 0;
-  bottom: 72px;
-  padding-right: 8px;
-  border-bottom-left-radius: var(--app-card-radius);
-  background-color: var(--app-foreground);
-  box-sizing: border-box;
-}
-.cooldownWrapper_d7ebeb {
-  bottom: 0;
-  right: 0;
-  background-color: var(--main-textarea-typing-color);
-  padding-left: 5px;
-  padding-right: 5px;
-  margin-bottom: 4px;
-  margin-right: 4px;
-  border-radius: 9px;
+  padding-top: var(--textarea-text-padding);
 }
 
 .wrapper_faf5ab,
