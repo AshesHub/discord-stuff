@@ -1,8 +1,6 @@
 #vc-spotify-player {
     --blur-amount: 1.7px; /* higher px = stronger blur, 0 = no blur */
     --darken-percent: 0.5; /* 0 = album cover is not darkened, 1 = album cover is darkened fully (black) */
-    --bar-darken-percent: 0;
-    --bar-blur-amount: 0px
 }
 
 #vc-spotify-player {
