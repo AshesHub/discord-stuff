@@ -4241,3 +4241,7 @@ pre, pre code, code.inline, .codeBlockText_cdb578, .codeLine_cdb578, .codeBlockL
   width: var(--custom-standard-sidebar-view-sidebar-total-width);
   padding: 20px var(--custom-standard-sidebar-view-sidebar-content-scrollbar-padding) 20px var(--custom-standard-sidebar-view-standard-padding);
 }
+
+.listeningAlong_cfdc9f {
+  background-color: hsl(0,0%,7%);
+}
