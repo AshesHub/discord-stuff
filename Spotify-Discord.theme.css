@@ -4245,3 +4245,7 @@ pre, pre code, code.inline, .codeBlockText_cdb578, .codeLine_cdb578, .codeBlockL
 .listeningAlong_cfdc9f {
   background-color: hsl(0,0%,7%);
 }
+
+.emptyCard_f02fcf {
+  background-color: var(--card-color);
+}
