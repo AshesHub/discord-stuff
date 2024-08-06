@@ -4249,3 +4249,7 @@ pre, pre code, code.inline, .codeBlockText_cdb578, .codeLine_cdb578, .codeBlockL
 .emptyCard_f02fcf {
   background-color: var(--card-color);
 }
+
+.jumpToPresentBar_cf58b5 { 
+  background: var(--popout-color);
+}
