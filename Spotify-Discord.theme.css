@@ -4253,3 +4253,7 @@ pre, pre code, code.inline, .codeBlockText_cdb578, .codeLine_cdb578, .codeBlockL
 .jumpToPresentBar_cf58b5 { 
   background: var(--popout-color);
 }
+
+.buttonsInner_d5deea {
+  background-color: var(--popout-color);
+}
