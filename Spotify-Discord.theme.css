@@ -4257,3 +4257,7 @@ pre, pre code, code.inline, .codeBlockText_cdb578, .codeLine_cdb578, .codeBlockL
 .buttonsInner_d5deea {
   background-color: var(--popout-color);
 }
+
+.listeningAlong_d4626d {
+  background-color: var(--app-foreground);
+}
