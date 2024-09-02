@@ -3,7 +3,8 @@
     "description": "",
     "authors": [
         {
-            "name": "Asheshub"
+            "name": "Asheshub",
+            "id": "555686162153472000"
         }
     ],
     "semanticColors": {
@@ -14,16 +15,16 @@
             "#000000"
         ],
         "BACKGROUND_MODIFIER_ACCENT": [
-            "#2c2c2c"
+            "2c2c2c"
         ],
         "BACKGROUND_MODIFIER_ACTIVE": [
-            "#313338"
+            "313338"
         ],
         "BACKGROUND_SECONDARY": [
-            "#2c2c2c"
+            "2c2c2c"
         ],
         "BACKGROUND_TERTIARY": [
-            "#353535"
+            "353535"
         ]
     },
     "rawColors": {},
