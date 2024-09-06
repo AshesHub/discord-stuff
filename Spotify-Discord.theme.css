@@ -4273,3 +4273,7 @@ pre, pre code, code.inline, .codeBlockText_cdb578, .codeLine_cdb578, .codeBlockL
 [class*=container_c64476]::after {
   background-color: var(--card-color-hover);
 }
+
+.wrapper_b75bb9 {
+  background-color: var(--app-foreground);
+}
