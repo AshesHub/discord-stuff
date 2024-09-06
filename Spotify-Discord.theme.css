@@ -4265,3 +4265,11 @@ pre, pre code, code.inline, .codeBlockText_cdb578, .codeLine_cdb578, .codeBlockL
 [class^=channelAppLauncher_] {
     display: none;
 }
+
+[class*=container_c64476] {
+  background-color: var(--card-color);
+}
+
+[class*=container_c64476]::after {
+  background-color: var(--card-color-hover);
+}
