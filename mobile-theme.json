@@ -33,8 +33,30 @@
         ],
         "CARD_PRIMARY_BG": [
             "#1a1a1a"
+        ],
+        "REDESIGN_CHAT_INPUT_BACKGROUND": [
+            "#242424"
+        ],
+        "EXPRESSION_PICKER_BG": [
+            "#292929"
+        ],
+        "PANEL_BG": [
+            "#121212"
         ]
     },
-    "rawColors": {},
+    "rawColors": {
+        "PLUM_20": [
+           "#121212" 
+        ],
+        "BRAND_360": [
+           "#255025" 
+        ],
+        "PLUM_17": [
+            "#292929"
+        ],
+        "PRIMARY_60": [
+            "#2c2c2c"
+        ]
+    },
     "spec": 2
 }
