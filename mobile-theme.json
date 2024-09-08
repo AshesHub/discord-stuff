@@ -13,9 +13,6 @@
         "BACKGROUND_SECONDARY_ALT": [
             "#000000"
         ],
-        "BACKGROUND_MODIFIER_ACCENT": [
-            "#2c2c2c"
-        ],
         "BACKGROUND_MODIFIER_ACTIVE": [
             "#313338"
         ],
@@ -45,6 +42,27 @@
         ],
         "BACKGROUND_MENTIONED": [
             "#192219"
+        ],
+        "REDESIGN_BUTTON_SECONDARY_BACKGROUND": [
+            "#1db954"
+        ],
+        "ANDROID_RIPPLE": [
+            "#232323"
+        ],
+        "BACKGROUND_MODIFIER_ACCENT": [
+            "#292929"
+        ],
+        "CHANNEL_ICON": [
+            "#FF0000"
+        ],
+        "HEADER_SECONDARY": [
+            "#b6bac1"
+        ],
+        "INTERACTIVE_ACTIVE": [
+            "#ffffff"
+        ],
+        "INTERACTIVE_NORMAL": [
+            "#b5bac1"
         ]
     },
     "rawColors": {
