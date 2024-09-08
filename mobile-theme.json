@@ -42,11 +42,14 @@
         ],
         "PANEL_BG": [
             "#121212"
+        ],
+        "BACKGROUND_MENTIONED": [
+            "#1db954"
         ]
     },
     "rawColors": {
         "PLUM_20": "#121212",
-        "BRAND_360": "#192219",
+        "BRAND_360": "#1db954",
         "BRAND_500": "#58b656",
         "PLUM_17": "#292929",
         "PRIMARY_60": "#2c2c2c"
