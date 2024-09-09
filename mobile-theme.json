@@ -52,35 +52,11 @@
         "BACKGROUND_MODIFIER_ACCENT": [
             "#292929"
         ],
-        "CHANNEL_ICON": [
-            "#81848e"
-        ],
-        "HEADER_SECONDARY": [
-            "#b6bac1"
-        ],
-        "INTERACTIVE_ACTIVE": [
-            "#ffffff"
-        ],
-        "INTERACTIVE_NORMAL": [
-            "#b5bac1"
-        ],
-        "REDESIGN_CHANNEL_CATEGORY_NAME_TEXT": [
-            "#959ba4"
-        ],
-        "REDESIGN_CHANNEL_NAME_TEXT": [
-            "#f1f1f3"
-        ],
         "TEXT_DANGER": [
             "#f23f42"
         ],
-        "TEXT_MUTED": [
-            "#b6bac1"
-        ],
-        "TEXT_NORMAL": [
-            "#dcdee1"
-        ],
-        "TEXT_PRIMARY": [
-            "#dbdee1"
+        "CHAT_SWIPE_TO_REPLY_BACKGROUND": [
+            "#101010"
         ]
     },
     "rawColors": {
