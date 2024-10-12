@@ -628,13 +628,7 @@ body,
  *  VOICE CHAT
  *
  */
-.callContainer_d880dc {
-  width: 0;
-}
 
-.wrapper_d880dc.noChat_d880dc .callContainer_d880dc {
-  height: calc(100% + var(--app-bar-size));
-}
 
 .colorable_ef18ee.primaryDark_ef18ee {
   background-color: var(--background-tinted-active);
@@ -647,9 +641,6 @@ body,
   color: var(--alert-text-color);
 }
 
-.actionBarButton_c2e612 {
-  height: 36px;
-}
 
 /* VOICE CHAT -> TILES */
 .tile_dc5fc4 {
