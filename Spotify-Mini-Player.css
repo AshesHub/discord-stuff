@@ -52,7 +52,7 @@
 .vc-spotify-progress-time {
     top: 12px;
 }
-.avatarWrapper_b2ca13 {
+.avatarWrapper__500a6 {
     margin: 0;
     padding: 7px;
     width: calc((100%/4) - 14px) !important;
@@ -63,12 +63,12 @@
     cursor: pointer;
     transition: .2s ease;
 }
-.panels_a4d4d9 .flex_dc333f,
-.panels_a4d4d9 .avatarWrapper_b2ca13 {
+.panels__58331 .flex_f18b02,
+.panels__58331 .avatarWrapper__500a6 {
     height: 100%;
     align-items: center;
 }
-.panels_a4d4d9 .flex_dc333f .button_adca65 {
+.panels__58331 .flex_f18b02 .button_ae40a4 {
     width: 100%;
     border-radius: 8px !important;
     cursor: pointer;
