@@ -1,0 +1,26 @@
+/** Move forward button so it stops breaking muscle memory by @mulverinex */
+.buttonsInner_d5deea {
+  display: flex;
+  flex-direction: row;
+}
+
+.hoverBarButton_e986d9[aria-label="Forward"] {
+  order: 1;
+  margin-right: 2px;
+}
+
+.hoverBarButton_e986d9[aria-label="Edit"] {
+  order: 2;
+}
+
+.hoverBarButton_e986d9[aria-label="Add Reaction"] {
+  order: 2;
+}
+
+.hoverBarButton_e986d9[aria-label="Reply"] {
+  order: 3;
+}
+.hoverBarButton_e986d9[aria-label="More"] {
+  order: 4;
+}
+/** */
