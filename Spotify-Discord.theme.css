@@ -119,34 +119,6 @@ body,
   background-color: var(--app-background);
 }
 
-/* APP ELEMENTS -> FONTS */
-@font-face {
-  font-family: "CircularSp";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://capnkitten.github.io/BetterDiscord/Themes/Spotify-Discord/files/fonts/CircularSp-Book.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-@font-face {
-  font-family: "CircularSp";
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url(https://capnkitten.github.io/BetterDiscord/Themes/Spotify-Discord/files/fonts/CircularSp-Book.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-@font-face {
-  font-family: "CircularSp";
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(https://capnkitten.github.io/BetterDiscord/Themes/Spotify-Discord/files/fonts/CircularSp-Bold.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
 /*
  *
  *  CHANNELS LIST
@@ -593,72 +565,72 @@ body,
   display: none;
 }
 
-.form_a7d72e .textArea_d0696b {
+.form_a7d72e .textArea_bdf0de {
   height: var(--main-textarea-min-height);
   min-height: var(--main-textarea-min-height);
 }
 
-.channelTextArea_d0696b {
+.channelTextArea_bdf0de {
   max-height: unset;
   z-index: 2;
 }
 
-.channelTextArea_d0696b .attachButton_f298d4 {
+.channelTextArea_bdf0de .attachButton_f298d4 {
   height: var(--main-textarea-min-height);
 }
 
-.channelTextArea_d0696b .buttons_d0696b {
+.channelTextArea_bdf0de .buttons_bdf0de {
   --button-height: var(--main-textarea-min-height);
   height: var(--main-textarea-min-height);
 }
 
-.channelTextArea_d0696b .emojiButton_d91a75 {
+.channelTextArea_bdf0de .emojiButton_d91a75 {
   max-height: unset;
 }
 
-.channelTextArea_d0696b .fontSize16Padding_d0696b {
+.channelTextArea_bdf0de .fontSize16Padding_bdf0de {
   --textarea-text-padding: calc(calc(var(--main-textarea-min-height) - 22px) / 2);
   padding-bottom: var(--textarea-text-padding);
   padding-top: var(--textarea-text-padding);
 }
 
-.wrapper_faf5ab,
-.channelTextArea_d0696b,
-.scrollableContainer_d0696b {
+.wrapper_f298d4,
+.channelTextArea_bdf0de,
+.scrollableContainer_bdf0de {
   background-color: var(--main-textarea-color);
   border-radius: var(--main-textarea-radius);
 }
 
-.scrollableContainer_d0696b {
+.scrollableContainer_bdf0de {
   background: var(--main-textarea-color) !important;
 }
 
-.wrapper_faf5ab {
+.wrapper_f298d4 {
   height: var(--main-textarea-min-height);
   margin-bottom: var(--textarea-margin);
   padding: 0;
 }
 
-.scrollableContainer_d0696b .textArea_d0696b {
+.scrollableContainer_bdf0de .textArea_bdf0de {
   color: var(--main-textarea-text-color);
 }
 
-.scrollableContainer_d0696b .textAreaDisabled_d0696b .placeholder_a552a6 {
+.scrollableContainer_bdf0de .textAreaDisabled_bdf0de .placeholder_a552a6 {
   padding-left: 16px;
 }
 
-.scrollableContainer_d0696b .placeholder_a552a6 {
+.scrollableContainer_bdf0de .placeholder_a552a6 {
   color: var(--main-textarea-placeholder-color);
 }
 
 /* MAIN TEXTAREA -> REPLY BAR */
-.attachedBars_d0696b {
+.stackedBars_bdf0de {
   background-color: var(--main-textarea-color);
   border-radius: var(--main-textarea-radius) var(--main-textarea-radius) 0 0;
   border-bottom: 1px solid var(--main-textarea-border-color);
 }
 
-.attachedBars_d0696b .clipContainer_b11c5e {
+.stackedBars_bdf0de .clipContainer_b11c5e {
   margin-top: 0;
   padding-top: 0;
 }
@@ -953,10 +925,6 @@ body,
 .container_6sXIoE.maximized_vv2Wr0 .bar_g2ZMIm {
   margin: 0;
 }
-
-
-
-
 
 
 /*
@@ -1294,11 +1262,11 @@ body,
   margin-bottom: 16px;
 }
 
-.formContainer_c1668f .channelTextArea_d0696b {
+.formContainer_c1668f .channelTextArea_bdf0de {
   background-color: transparent;
 }
 
-.formContainer_c1668f .scrollableContainer_d0696b {
+.formContainer_c1668f .scrollableContainer_bdf0de {
   --main-textarea-color: var(--input-color);
   padding: 6px 8px;
   border-radius: var(--input-radius);
@@ -1306,7 +1274,7 @@ body,
   transition: var(--default-time) var(--default-animation) border-color;
 }
 
-.formContainer_c1668f .scrollableContainer_d0696b:focus-within {
+.formContainer_c1668f .scrollableContainer_bdf0de:focus-within {
   border-color: var(--input-border-color);
 }
 
@@ -2395,11 +2363,13 @@ body,
 }
 
 /* MESSAGES ACTIONS -> DELETE MESSAGE */
-.message_ddcc45 {
+.content_f9a4c9 {
   background-color: var(--card-color) !important;
   border-radius: var(--card-radius);
   box-shadow: none !important;
 }
+
+
 
 /*
  *
@@ -3954,8 +3924,8 @@ code.inline,
   --bg-mod-faint: var(--profile-body-background-color) !important;
 }
 
-.userProfileOuterUnthemed_c69a7b .channelTextArea_d0696b,
-.userProfileOuterUnthemed_c69a7b .scrollableContainer_d0696b {
+.userProfileOuterUnthemed_c69a7b .channelTextArea_bdf0de,
+.userProfileOuterUnthemed_c69a7b .scrollableContainer_bdf0de {
   background-color: hsl(from var(--main-textarea-color) h s calc(l * 1.6)) !important;
 }
 
@@ -4015,7 +3985,7 @@ code.inline,
   fill: var(--profile-avatar-border-color);
 }
 
-.userProfileInner_c69a7b .channelTextArea_d0696b {
+.userProfileInner_c69a7b .channelTextArea_bdf0de {
   margin-bottom: 0;
 }
 
