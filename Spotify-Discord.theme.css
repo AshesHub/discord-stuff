@@ -4107,7 +4107,7 @@ code.inline,
 }
 
 .tutorialContainer_f9623d+.listItem_c96c45 {
-  margin: 0 0 var(--app-card-margin);
+  margin: var(--app-card-margin) 0 var(--app-card-margin);
 }
 
 .platform-win .scroller_fea3ef {
