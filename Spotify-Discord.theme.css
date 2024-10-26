@@ -168,6 +168,10 @@ body,
   box-shadow: none;
 }
 
+.chatHeaderBar_efb691 {
+  background-color: var(--header-bar-color) !important;
+}
+
 .header_fd6364 .primaryInfo_fd6364 {
   height: var(--header-bar-height);
 }
