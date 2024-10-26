@@ -4839,3 +4839,7 @@ code.inline,
 .wrapper_b75bb9 {
   background-color: var(--app-foreground);
 }
+
+.container_c15230 {
+  background-color: var(--background-tinted-active);
+}
