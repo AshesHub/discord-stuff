@@ -3556,13 +3556,15 @@ code.inline,
  *
  */
 .contentWrapper_af5dbb,
-.contentWrapper_eab878 {
+.contentWrapper_eab878{
   grid-template-rows: 32px auto;
   grid-row-gap: 16px;
   background-color: var(--popout-color);
   border-radius: var(--popout-radius);
   box-shadow: var(--default-shadow);
 }
+
+
 
 /* EMOJI PICKER -> NAV LIST */
 .navList_af5dbb,
