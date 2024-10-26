@@ -1,2 +1,2 @@
-todo:
-  fix backgound colors on popups like Delete Message
+### TODO:
+- [ ] fix backgound colors on popups like Delete Message
