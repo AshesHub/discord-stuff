@@ -53,3 +53,8 @@ button[aria-label="Disable Silent Typing"]:hover {
 [aria-label="Edit Image with Apps"] {
     display: none;
 }
+
+/*Remove Nitro Ads*/
+.container_da1432 { /*Banner In Profile Settings*/
+    display: none;
+}
