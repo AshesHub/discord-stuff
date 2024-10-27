@@ -1,0 +1,60 @@
+/* Hides Store and Shop button */
+[href="/store"],
+[href='/shop'] {
+    display: none;
+}
+
+
+/* hide send gift button */
+button[aria-label="Send a gift"] {
+    display: none;
+}
+
+/* hide sticker picker */
+button[aria-label="Open sticker picker"] {
+    display: none;
+}
+
+/* hide forward button (hover only) */
+#message-actions-forward {
+    display: none;
+}
+
+div[aria-label="Forward"] {
+    display: none;
+}
+
+
+/*remove emojis on message hover bar thing*/
+div[class^="buttonContainer"]>div>div {
+    >div[aria-label^="Click to react with"],
+    >div[aria-label^="Click to remove"] {
+        display: none;
+    }
+}
+
+
+button[aria-label="Insert Timestamp"],
+button[aria-label="Open Translate Modal"],
+button[aria-label="Disable Silent Typing"] {
+    opacity: 0.3;
+    transition: opacity 0.5s; /*fade-out*/
+}
+
+/* Fade in effect on hover */
+button[aria-label="Insert Timestamp"]:hover,
+button[aria-label="Open Translate Modal"]:hover,
+button[aria-label="Disable Silent Typing"]:hover {
+    opacity: 1;
+    transition: opacity 0.2s; /*fade-in*/
+}
+
+/* Removes Edit with Apps Icon on Images */
+[aria-label="Edit Image with Apps"] {
+    display: none;
+}
+
+/*Remove Nitro Ads*/
+.container_da1432 { /*Banner In Profile Settings*/
+    display: none;
+}
