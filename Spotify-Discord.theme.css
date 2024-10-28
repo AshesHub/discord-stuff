@@ -2358,7 +2358,7 @@ code.inline,
  *  MODALS
  *
  */
-.root_f9a4c9 {
+.root_f9a4c9:not(.carouselModal_c9eb31) {
   background: var(--popout-color) !important;
   border-radius: var(--popout-radius-big) !important;
   box-shadow: var(--default-shadow) !important;
