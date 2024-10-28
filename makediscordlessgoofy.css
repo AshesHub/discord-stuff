@@ -66,3 +66,7 @@ button[aria-label="Disable Silent Typing"]:hover {
 .forward_a15d41:hover {
     opacity: 0.8;
 }
+/* Hide all discord support stuff */
+[href="https://support.discord.com"] {
+    display: none;
+}
