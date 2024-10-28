@@ -4376,3 +4376,12 @@ code.inline,
 .container_c15230 {
   background-color: var(--background-tinted-active);
 }
+
+
+/* Make Logout Button Red */
+[class^=item_][data-tab-id="logout"] {
+  color: var(--info-danger-foreground) !important;
+}
+[class^=item_][data-tab-id="logout"]:hover {
+  background-color: var(--info-danger-background) !important;
+}
