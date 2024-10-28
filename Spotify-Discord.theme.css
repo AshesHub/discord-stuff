@@ -4377,3 +4377,8 @@ code.inline,
 [class^=item_][data-tab-id="logout"]:hover {
   background-color: var(--info-danger-background) !important;
 }
+
+/* part of leave server can you tell us more popup */
+.root_c3b890 {
+  background-color: var(--popout-color-alt);
+} 
