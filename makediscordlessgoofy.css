@@ -66,7 +66,12 @@ button[aria-label="Disable Silent Typing"]:hover {
 .forward_a15d41:hover {
     opacity: 0.8;
 }
+
 /* Hide all discord support stuff */
 [href="https://support.discord.com"] {
+    display: none;
+}
+/* Remove the activity panel for screen sharing your current game*/
+.activityPanel_a4d4d9 {
     display: none;
 }
