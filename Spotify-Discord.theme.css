@@ -4084,17 +4084,9 @@ code.inline,
   display: none;
 }
 
-.accountProfileCard_b69b77 .userInfo_b69b77 {
-  position: relative;
-  height: 88px;
-  padding: 16px 16px 16px 130px;
-}
 
 .accountProfileCard_b69b77 .userInfo_b69b77 .wrapper_c51b4e {
-  top: unset;
-  bottom: 21px;
   background-color: var(--card-color);
-  border: 8px solid var(--card-color);
 }
 
 .accountProfileCard_b69b77 .background_b69b77 {
