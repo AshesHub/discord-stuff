@@ -2359,7 +2359,7 @@ code.inline,
  *
  */
 .root_f9a4c9 {
-  /*background: var(--popout-color) !important;*/
+  background: var(--popout-color) !important;
   border-radius: var(--popout-radius-big) !important;
   box-shadow: var(--default-shadow) !important;
 }

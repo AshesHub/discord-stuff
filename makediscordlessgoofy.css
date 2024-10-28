@@ -58,3 +58,11 @@ button[aria-label="Disable Silent Typing"]:hover {
 .container_da1432 { /*Banner In Profile Settings*/
     display: none;
 }
+
+/* Image Large Preview forward button*/
+.forward_a15d41 {
+    opacity: 0.3;
+}
+.forward_a15d41:hover {
+    opacity: 0.8;
+}
