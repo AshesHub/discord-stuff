@@ -4382,3 +4382,8 @@ code.inline,
 .root_c3b890 {
   background-color: var(--popout-color-alt);
 } 
+
+/*file text code preview*/
+.codeView_d8e2d0 {
+  background: transparent;
+}
