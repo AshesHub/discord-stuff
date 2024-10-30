@@ -35,7 +35,7 @@ div[class^="buttonContainer"]>div>div {
 
 
 button[aria-label="Insert Timestamp"],
-button[aria-label="Open Translate Modal"],
+button[aria-label="Open Translate Modal"]:not(:has(.vc-trans-auto-translate)),
 button[aria-label="Disable Silent Typing"] {
     opacity: 0.3;
     transition: opacity 0.5s; /*fade-out*/
