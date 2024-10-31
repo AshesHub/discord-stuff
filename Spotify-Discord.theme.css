@@ -4387,3 +4387,8 @@ code.inline,
 .codeView_d8e2d0 {
   background: transparent;
 }
+
+.searchResult_ddc613 .embedSpotify_b0068a { /*Spotify embed only in search results*/
+  width: 100% !important; /* Or any desired width */
+  max-width: 400px; /*Default discord spotify embed size */
+}
