@@ -2364,8 +2364,13 @@ code.inline,
   box-shadow: var(--default-shadow) !important;
 }
 
+.contentBackground_c5a065 {
+  background-color: var(--popout-color-alt);
+}
+
 .root_f9a4c9.carouselModal_d2b9a1,
-.root_f9a4c9.container_f4e139 {
+.root_f9a4c9.container_f4e139,
+.authorize_c5a065 {
   background-color: transparent !important;
   box-shadow: none !important;
 }
