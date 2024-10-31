@@ -4397,3 +4397,7 @@ code.inline,
   width: 100% !important; /* Or any desired width */
   max-width: 400px; /*Default discord spotify embed size */
 }
+
+.footer_aa1bff {
+  background-color: var(--app-foreground);
+}
