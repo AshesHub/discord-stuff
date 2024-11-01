@@ -1,13 +1,12 @@
 @import url("https://cdn.jsdelivr.net/gh/AshesHub/discord-stuff@main/Spotify-Mini-Player.min.css");
+
 #vc-spotify-player {
     --blur-amount: 4px; /* higher px = stronger blur, 0 = no blur */
 }
 
-
-
 #vc-spotify-info-wrapper #vc-spotify-album-image {
     pointer-events: none;
-    transform: scale(5) translate(40%, -65%); 
+    transform: scale(5) translate(40%, -65%);
     border-radius: 1px;
 }
 
@@ -17,4 +16,5 @@
 
 #vc-spotify-titles {
     position: absolute;
+    max-width: 100%;
 }
