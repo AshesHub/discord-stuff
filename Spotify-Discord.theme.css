@@ -4394,7 +4394,7 @@ code.inline,
 }
 
 .searchResult_ddc613 .embedSpotify_b0068a { /*Spotify embed only in search results*/
-  width: 100% !important; /* Or any desired width */
+  width: 100% !important;
   max-width: 400px; /*Default discord spotify embed size */
 }
 
