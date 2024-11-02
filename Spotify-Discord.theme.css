@@ -896,7 +896,8 @@ body,
  *
  */
 .container_a57509,
-.container_d331f1 {
+.container_d331f1,
+.container_a03b48 {
   background-color: var(--card-color);
   border-radius: var(--card-radius);
   border: none;
