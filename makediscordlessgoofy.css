@@ -77,7 +77,7 @@ button[aria-label="Disable Silent Typing"]:hover {
 [href="https://support.discord.com"] {
     display: none;
 }
-.icons_d4626d {
+.icons_d4626d > [aria-label="What's this?"] {
     opacity: 0;
     pointer-events: none;
     width: 0px;
