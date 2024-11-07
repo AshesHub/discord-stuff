@@ -1,4 +1,4 @@
-/* Hides Store and Shop button */
+/* Hides Store And Shop Button */
 [href="/store"],
 [href='/shop'] {
     display: none;
@@ -10,21 +10,20 @@
 }
 
 
-/* hide send gift button */
+/* Hide Send Gift Button */
 button[aria-label="Send a gift"] {
     display: none;
 }
 
-/* hide sticker picker */
+/* Hide Sticker Picker Button */
 button[aria-label="Open sticker picker"] {
     display: none;
 }
 
-/* hide forward button (hover only) */
+/* hide forward button on Message Buttons */
 #message-actions-forward {
     display: none;
 }
-
 div[aria-label="Forward"] {
     display: none;
 }
@@ -77,14 +76,14 @@ button[aria-label="Disable Silent Typing"]:hover {
 [href="https://support.discord.com"] {
     display: none;
 }
-.icons_d4626d > [aria-label="What's this?"] {
+.icons_d4626d > [aria-label="What's this?"] { /*Spotify Listen Along Help button when host*/
     opacity: 0;
-    pointer-events: none;
     width: 0px;
     padding-left: 8px;
+    pointer-events: none;
 }
 
-/* Remove the activity panel for screen sharing your current game*/
+/* Remove the activity panel for screen sharing your current game in user area*/
 .activityPanel_a4d4d9 {
     display: none;
 }
