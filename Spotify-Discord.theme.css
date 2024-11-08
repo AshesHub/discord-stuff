@@ -302,6 +302,17 @@ body,
   overflow: visible;
   margin: 0 var(--app-card-margin) var(--app-card-margin) 0;
 }
+.contentPreview_a57509 {
+  background-color: var(--app-foreground);
+}
+
+.theme-dark .textContentFooter_a57509 {
+ background: var(--app-foreground) !important;
+}
+.contentPreview_a57509 {
+  border: 1px solid var(--background-tinted-active);;
+}
+
 
 .chat_a7d72e .content_a7d72e,
 .container_d1c246 .content_a7d72e {
@@ -895,6 +906,9 @@ body,
  *  FORUM POSTS
  *
  */
+.chatHeaderBar_e2f46e {
+  background-color: var(--background-tinted-dark);
+}
 .container_a57509,
 .container_d331f1,
 .container_a03b48 {
