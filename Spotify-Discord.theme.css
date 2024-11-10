@@ -4416,3 +4416,8 @@ code.inline,
 .footer_aa1bff {
   background-color: var(--app-foreground);
 }
+
+.vc-ranb-button { /*read all messages button*/
+  padding: 0 0.5em;
+  margin-bottom: 0.5em;
+}
