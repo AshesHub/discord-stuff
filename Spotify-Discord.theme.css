@@ -4390,11 +4390,13 @@ code.inline,
 }
 
 
-/* Make Logout Button Red */
-[class^=item_][data-tab-id="logout"] {
+/* Make Logout and delete server buttons Red  */
+[class^=item_][data-tab-id="logout"],
+[class^=item_][data-tab-id="DELETE"] {
   color: var(--info-danger-foreground) !important;
 }
-[class^=item_][data-tab-id="logout"]:hover {
+[class^=item_][data-tab-id="logout"]:hover,
+[class^=item_][data-tab-id="DELETE"]:hover {
   background-color: var(--info-danger-background) !important;
 }
 
