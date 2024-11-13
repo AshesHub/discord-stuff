@@ -4390,10 +4390,11 @@ code.inline,
 }
 
 
-/* Make Logout and delete server buttons Red  */
+/* Make Logout, delete server and leave Server buttons Red  */
 [class^=item_][data-tab-id="logout"],
 [class^=item_][data-tab-id="DELETE"],
-[class^=item_][id="guild-context-leave-guild"] {
+[class^=item_][id="guild-context-leave-guild"],
+[class^=item_][id="guild-header-popout-leave"]  {
   color: var(--info-danger-foreground) !important;
 }
 [class^=item_][data-tab-id="logout"]:hover,
