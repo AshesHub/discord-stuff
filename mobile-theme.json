@@ -44,7 +44,7 @@
             "#192219"
         ],
         "REDESIGN_BUTTON_SECONDARY_BACKGROUND": [
-            "#1ed760"
+            "#1db954"
         ],
         "ANDROID_RIPPLE": [
             "#232323"
@@ -62,7 +62,7 @@
     "rawColors": {
         "PLUM_20": "#121212",
         "BRAND_360": "#1db954",
-        "BRAND_500": "#58b656",
+        "BRAND_500": "#1db954",
         "PLUM_17": "#292929",
         "PRIMARY_60": "#2c2c2c"
     },
