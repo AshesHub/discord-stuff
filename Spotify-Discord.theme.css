@@ -2001,7 +2001,7 @@ body,
   background-color: var(--background-tinted-active);
 }
 
-.attachment_b52bef {
+.fileWrapper_f46c86 {
   background-color: var(--background-tinted-active);
   border-radius: var(--card-radius);
   border: none;
@@ -3576,17 +3576,17 @@ code.inline,
   border-radius: calc(var(--popout-radius-big) / 1.25);
 }
 
-.statusBubbleOuter_d0a252 {
+.statusBubbleOuter_af9888 {
   border: none !important;
 }
 
-.statusBubbleOuter_d0a252:before,
-.statusBubbleOuter_d0a252:after {
+.statusBubbleOuter_af9888:before,
+.statusBubbleOuter_af9888:after {
   background-color: var(--card-color) !important;
   border: none !important;
 }
 
-.statusBubbleOuter_d0a252 .statusBubble_d0a252 {
+.statusBubbleOuter_af9888 .statusBubble_af9888 {
   background-color: var(--card-color);
 }
 
@@ -4418,7 +4418,7 @@ code.inline,
   max-width: 400px; /*Default discord spotify embed size */
 }
 
-.footer_aa1bff {
+.footer_d71945 {
   background-color: var(--app-foreground);
 }
 
