@@ -3,9 +3,9 @@
 [href='/shop'] {
     display: none;
 }
-
-.gradient_aa1bff,
-.footer_aa1bff {
+/* Remove footer Discover button */
+.gradient_f8ec41,
+.footer_d71945 {
     display: none;
 }
 
