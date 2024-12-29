@@ -89,6 +89,7 @@ button[aria-label="Disable Silent Typing"]:hover {
 }
 
 /* Remove the Play again activity thing from dm channel list */
-.headerContainer_e5a9ed {
+.headerContainer_e5a9ed,
+.itemContainer_e5a9ed {
     display: none;
 }
