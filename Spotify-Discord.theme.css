@@ -4426,3 +4426,7 @@ code.inline,
   padding: 0 0.5em;
   margin-bottom: 0.5em;
 }
+
+.panel_c69a7b {
+  background-color: var(--popout-color-alt);
+}
