@@ -12,7 +12,9 @@
 .container__675e5 {
     display: none;
 }
-
+.upsellContainer__5997d {
+    display: none;
+}
 
 /* Hide Send Gift Button */
 button[aria-label="Send a gift"] {
