@@ -4429,3 +4429,7 @@ order: -1;
 .panel_c0bea0 {
   background-color: var(--popout-color-alt);
 }
+
+.card__88264 {
+  background-color: var(--card-color);
+}
