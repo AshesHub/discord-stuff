@@ -220,6 +220,10 @@ body,
   stroke: currentColor !important;
 }
 
+.theme-dark .content__37e49 {
+  background-color: var(--app-foreground);
+}
+
 .container__37e49 {
   background: transparent !important;
   transition: var(--default-time) var(--default-animation) margin-bottom;
