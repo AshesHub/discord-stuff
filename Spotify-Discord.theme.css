@@ -4393,16 +4393,18 @@ order: -1;
 }
 
 
-/* Make Logout, delete server and leave Server buttons Red  */
-[class^=item_][data-tab-id="logout"],
+/* Make Logout, delete server and leave Server buttons Red and Remove From Group  */
+[class^=item_][aria-label="Log Out"],
 [class^=item_][data-tab-id="DELETE"],
 [class^=item_][id="guild-context-leave-guild"],
-[class^=item_][id="guild-header-popout-leave"]  {
+[class^=item_][id="guild-header-popout-leave"],
+#user-context-remove  {
   color: var(--info-danger-foreground) !important;
 }
-[class^=item_][data-tab-id="logout"]:hover,
+[class^=item_][aria-label="Log Out"]:hover,
 [class^=item_][data-tab-id="DELETE"]:hover,
-[class^=item_][id="guild-context-leave-guild"]:hover {
+[class^=item_][id="guild-context-leave-guild"]:hover,
+#user-context-remove:hover {
   background-color: var(--info-danger-background) !important;
 }
 
