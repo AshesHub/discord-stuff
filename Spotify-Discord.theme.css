@@ -4439,3 +4439,7 @@ order: -1;
 .card__88264 {
   background-color: var(--card-color);
 }
+
+.root__49fc1:not(.carouselModal__8a837) {
+  background: none !important;
+}
