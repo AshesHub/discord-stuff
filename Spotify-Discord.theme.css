@@ -91,6 +91,12 @@
   background: var(--app-background);
 }
 
+.container_c48ade {
+  margin-top: 8px;
+}
+
+
+
 body,
 .app_a3002d,
 .app__160d8,
@@ -124,13 +130,18 @@ body,
  *  CHANNELS LIST
  *
  */
+
+.scroller_ef3116 {
+  padding: 0px;
+}
+
 .platform-win .sidebar_c48ade {
   border-radius: var(--app-card-radius) !important;
   margin: 0 var(--app-card-margin) var(--app-card-margin) 0;
 }
 
 .sidebar_c48ade {
-  margin: 0 var(--app-card-margin) 0 0;
+  margin: 0 var(--app-card-margin) 8px 0;
   background-color: var(--app-foreground);
 }
 
@@ -4339,7 +4350,7 @@ code.inline,
 }
 
 #vc-spotify-player {
-order: -1;
+  order: -1;
 }
 
 .sidebar__23e6b {
@@ -4442,4 +4453,8 @@ order: -1;
 
 .root__49fc1:not(.carouselModal__8a837) {
   background: none !important;
+}
+
+.backdrop__78332 {
+  background: rgba(0, 0, 0, 0.43) !important;
 }
