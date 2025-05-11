@@ -6,12 +6,14 @@
 
 #vc-spotify-info-wrapper #vc-spotify-album-image {
     pointer-events: none;
-    transform: scale(5) translate(40%, -65%);
-    border-radius: 1px;
+    width:  700%; 
+    height: 700%;
+    margin-bottom: 120%;
+    border-radius: 4px;
 }
 
 #vc-spotify-player {
-    padding-top: 100%;
+    padding-top: 100%!important ;
 }
 
 #vc-spotify-titles {
