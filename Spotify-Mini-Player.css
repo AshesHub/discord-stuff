@@ -103,11 +103,3 @@
   height: 36px;
 }
 
-[class^=panels_] {
-  display: flex;
-  flex-direction: column;
-}
-
-#vc-spotify-player {
-  order: -1;
-}
