@@ -1,93 +1,113 @@
 #vc-spotify-player {
-    --blur-amount: 1.7px; /* higher px = stronger blur, 0 = no blur */
-    --darken-percent: 0.5; /* 0 = album cover is not darkened, 1 = album cover is darkened fully (black) */
+  --blur-amount: 1.7px;
+  /* higher px = stronger blur, 0 = no blur */
+  --darken-percent: 0.5;
+  /* 0 = album cover is not darkened, 1 = album cover is darkened fully (black) */
 }
 
 #vc-spotify-player {
-    background: transparent !important;
-    position: relative;
+  background: transparent !important;
+  position: relative;
 }
 
-#vc-spotify-player > * {
-    position: relative;
-    z-index: 1;
+#vc-spotify-player>* {
+  position: relative;
+  z-index: 1;
 }
 
 #vc-spotify-player::after {
-    content: "";
-    position: absolute;
-    display: block;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background: linear-gradient(rgba(0, 0, 0, var(--darken-percent)),
-            rgba(0, 0, 0, var(--darken-percent))), var(--vc-spotify-track-image);
-    background-size: cover;
-    background-position: center; 
-    filter: blur(var(--blur-amount));
-    clip-path: inset(0);
+  content: "";
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(rgba(0, 0, 0, var(--darken-percent)),
+      rgba(0, 0, 0, var(--darken-percent))), var(--vc-spotify-track-image);
+  background-size: cover;
+  background-position: center;
+  filter: blur(var(--blur-amount));
+  clip-path: inset(0);
 }
-#vc-spotify-player + [class^="container"] {
-    background: transparent;
+
+#vc-spotify-player+[class^="container"] {
+  background: transparent;
 }
 
 #vc-spotify-player .bar_a562c8 {
-    background-color: hsl(var(--white-500-hsl) / 0.1);
+  background-color: hsl(var(--white-500-hsl) / 0.1);
 }
+
 #vc-spotify-player .barFill_a562c8 {
-    background-image: var(--vc-spotify-track-image);
-    background-size: 240px;
-    background-position-y: center;
-    filter: blur(2px) brightness(120%);
+  background-image: var(--vc-spotify-track-image);
+  background-size: 240px;
+  background-position-y: center;
+  filter: blur(2px) brightness(120%);
 }
-#vc-spotify-progress-bar > [class^="slider"] [class^="grabber"] {
-    background-color: var(--interactive-active);
-    border-color: var(--interactive-active);
-    width: 12px !important;
-    height: 12px !important;
-    margin-top: 3px;
-    opacity: 1 !important;
+
+#vc-spotify-progress-bar>[class^="slider"] [class^="grabber"] {
+  background-color: var(--interactive-active);
+  border-color: var(--interactive-active);
+  width: 12px !important;
+  height: 12px !important;
+  margin-top: 3px;
+  opacity: 1 !important;
 }
+
 .vc-spotify-progress-time {
-    top: 12px;
+  top: 12px;
 }
+
 .avatarWrapper__500a6 {
-    margin: 0;
-    padding: 7px;
-    width: calc((100%/4) - 14px) !important;
-    justify-content: center;
-    min-width: unset !important;
-    height: 42px !important;
-    border-radius: 8px !important;
-    cursor: pointer;
-    transition: .2s ease;
+  margin: 0;
+  padding: 7px;
+  width: calc((100%/4) - 14px) !important;
+  justify-content: center;
+  min-width: unset !important;
+  height: 42px !important;
+  border-radius: 8px !important;
+  cursor: pointer;
+  transition: .2s ease;
 }
+
 .panels__58331 .flex_f18b02,
 .panels__58331 .avatarWrapper__500a6 {
-    height: 100%;
-    align-items: center;
+  height: 100%;
+  align-items: center;
 }
+
 .panels__58331 .flex_f18b02 .button_ae40a4 {
-    width: 100%;
-    border-radius: 8px !important;
-    cursor: pointer;
-    height: 56px;
-    transition: .2s ease;
+  width: 100%;
+  border-radius: 8px !important;
+  cursor: pointer;
+  height: 56px;
+  transition: .2s ease;
 }
+
 #vc-spotify-player {
-    border-bottom: none;
-    padding: 12px;
-    padding-bottom: 0;
+  border-bottom: none;
+  padding: 12px;
+  padding-bottom: 0;
 }
 
 .vc-spotify-button-row {
-    gap: 4px !important;
-    margin: 8px -6px 0 -6px;
+  gap: 4px !important;
+  margin: 8px -6px 0 -6px;
 }
+
 .vc-spotify-button {
-    border-radius: 6px;
-    width: 100%;
-    transition: .2s ease;
-    height: 36px;
+  border-radius: 6px;
+  width: 100%;
+  transition: .2s ease;
+  height: 36px;
+}
+
+[class^=panels_] {
+  display: flex;
+  flex-direction: column;
+}
+
+#vc-spotify-player {
+  order: -1;
 }
