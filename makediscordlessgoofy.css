@@ -17,12 +17,9 @@
 }
 
 /* Hide Send Gift Button */
-button[aria-label="Send a gift"] {
-    display: none;
-}
-
 /* Hide Sticker Picker Button */
-button[aria-label="Open sticker picker"] {
+.expression-picker-chat-input-button:has(button[aria-label="Send a gift"]),
+.expression-picker-chat-input-button:has(button[aria-label="Open sticker picker"]) {
     display: none;
 }
 
